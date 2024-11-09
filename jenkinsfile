@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                // Example: run build commands like mvn clean install
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+                // Example: run test scripts
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+                // Example: deploy artifacts
+            }
+        }
+    }
+}
