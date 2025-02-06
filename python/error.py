@@ -5,3 +5,5 @@ try:
         print("divisible by 3")
 except Exception as e:
     print("hi",e)
+finally:
+    print("cleanup code")
