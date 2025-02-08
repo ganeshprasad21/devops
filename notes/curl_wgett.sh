@@ -48,3 +48,19 @@ kvm + qemu https://www.tecmint.com/install-qemu-kvm-ubuntu-create-virtual-machin
 
 jenkins : pipeline -> agent -> stages -> stage -> steps -> script
 pipeline webhook is for jenkins
+
+
+
+k8
+k8 is not tool it is pro
+done by google
+
+hands on installation
+kubectl run web-server --image=nginx or write manifest
+that will go to api that will go to kubelet of a node/minion and the node will create a contaioner and kubelet will again tell back api and api will communicate to scheduler later the api will again upate in etcd , and then it will come back to api again controller will amintain, it uses ipc inside and tcp/ip for inter node
+api is the main
+scheduler will act on request only
+
+
+
+kubeadm init
