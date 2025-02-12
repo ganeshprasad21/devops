@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+    <h1>Contact Us</h1>
+    <form method="post">
+        {% csrf_token %}  <!-- Security Token -->
+        {{ form.as_p }}  <!-- Django will render form fields -->
+        <button type="submit">Send</button>
+    </form>
+{% endblock %}

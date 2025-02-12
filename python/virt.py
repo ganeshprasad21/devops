@@ -1,8 +1,13 @@
-venv
+# venv
 
-python -m venv <nme>
+# python -m venv <nme>
 
-source <nme>/bin/activate
+# source <nme>/bin/activate
 
 
-deactivate
+# deactivate
+
+
+
+# pipenv
+

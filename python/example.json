@@ -1,0 +1,9 @@
+{
+    "name": "G",
+    "age": 30,
+    "skills": [
+        "JavaScript",
+        "React"
+    ],
+    "is_employed": false
+}
